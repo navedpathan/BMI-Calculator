@@ -25,6 +25,6 @@ document.querySelector(".result").addEventListener("click", ()=>{
         status = "Obese";
     }
     document.querySelector
-    (".status").innerHTML = `You are <span id="status">${status}</span>`;
+    (".status").innerHTML = `<span id="status">${status}</span>`;
     
 })
